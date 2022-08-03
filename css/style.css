@@ -184,9 +184,9 @@ h6 {
 
 .header__content {
   margin-top: 100px;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center left -50px;
+  background-position: center;
   height: 887px;
   color: white;
 }
@@ -2035,6 +2035,12 @@ iframe {
     background-image: url("../img/header/helimain2.png"); }
   .header__content {
     background-position: center right;
+    margin-top: 70px;
+  }
+
+  .header__content .content__container {
+    min-height: 677px;
+    gap: 37px;
   }
 
   .fotoset__top {
@@ -2139,11 +2145,6 @@ iframe {
   .header__top {
     min-height: 60px;
     padding: 23px 1px;
-  }
-
-  .header__content .content__container {
-    min-height: 677px;
-    gap: 37px;
   }
 
   .header__title {
